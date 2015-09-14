@@ -21,5 +21,6 @@ android {
 
 dependencies {
     // need to remove the precompiled jar in favor for building it
+    compile project(':swissephcompile')
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
